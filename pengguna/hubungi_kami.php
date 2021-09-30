@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Morantha Hotel</title>
+		<meta charset = "utf-8" />
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+	</head>
+<body>
+	<nav style = "background-color:rgba(0, 0, 0, 0.1);" class = "navbar navbar-default">
+		<div  class = "container-fluid">
+			<div class = "navbar-header">
+				<a class = "navbar-brand" >Morantha Hotel</a>
+			</div>
+		</div>
+	</nav>	
+	<ul id = "menu">
+		<li><a href = "index.php">Beranda</a></li> |
+		<li><a href = "tentang_kami.php">Tentang Kami</a></li> |
+		<li><a href = "hubungi_kami.php">Hubungi Kami</a></li> |
+		<li><a href = "fasilitas_kami.php">Fasilitas Kami</a></li> |
+		<li><a href = "hidangan_kami.php">Hidangan kami</a></li> |			
+		<li><a href = "pesananan.php">Pesan Sekarang</a></li> |
+		<li><a href = "aturan_kami.php">Aturan Kami</a></li>
+	</ul>
+	<div style = "margin-left:0;" class = "container">
+		<div class = "panel panel-default">
+			<div class = "panel-body">
+				<strong><h3>Hubungi Kami</h3></strong>
+				<br />
+				<br />
+				<center><img src = "Foto/tentang_kami.jpg" width = "300" height = "300" /></center>
+				<br />
+				<br />
+				<center>
+				<p>Hubungi: 081223754380</p>
+				<p>Email: danielmrnth12@gmail.com</p>
+				</center>
+			</div>
+		</div>
+	</div>
+	<br />
+	<br />
+	<div style = "text-align:right; margin-right:10px;" class = "navbar navbar-default navbar-fixed-bottom">
+		<label>&copy; Copyright Morantha 2021 </label>
+	</div>
+</body>
+<script src = "js/jquery.js"></script>
+<script src = "js/bootstrap.js"></script>	
+</html>
